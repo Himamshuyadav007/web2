@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    
+}
+#left{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(32, 30, 30);
+   
+}
+#center{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1612462765825-15204611a1b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGVsZWdhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    position: center;
+}
+#main #right{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background-color: blue;
+}
+#right #rtop{
+    position: absolute;
+    height: 80%;
+    width: 20%;
+    background-image: url(https://images.unsplash.com/photo-1612462766182-174e9bc7716f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80);
+    background-size: cover;
+    position: center;
+}
+#right #rbtm{
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    bottom: 0;
+    background-color: white;
+}
+ #rbtm #btm h1{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 70px;
+    font-family: HURSHEYS;
+    font-weight: 100;
+    font-size: 70px;
+}
+#text h1{
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    color: white;
+    font-size: 120px;
+    font-family: hursheys;
+    top: 20%;
+    left: 12.4%;
+    font-weight: 100;
+    
+}
+ 
+#main #divline{
+    position:absolute;
+    top: 60%;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    border-top: solid .3px rgba(255, 255, 255, 0.452);
+    border-bottom: solid .3px rgba(255, 255, 255, 0.452);
+    z-index: 99;
+}
+#circle{
+    position: absolute;
+    top: 16%;
+    left: 60%;
+    height: 200px;
+    width: 200px;
+    border:solid .3px rgba(255, 255, 255, 0.295);
+    border-radius: 50%;
+    
+}
+#circle h1{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    color: rgba(255, 255, 255, 0.377);
+    font-family: sans-serif;
+    font-weight: 250;
+    font-size: 20px;
+    letter-spacing: 8px;
+}
+#divline #linel{
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    color: rgba(255, 255, 255, 0.295);
+    transform: translate(-50%,-50%);
+}
+#divline #liner{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 40%;
+    left: 88%;
+    color: rgba(255, 255, 255, 0.295);
+}
+#left #left1 {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    font-family: Hursheys;
+    bottom: 5%;
+    left: 3%;
+    font-weight:100;
+}
+#left #left1 h1{
+    bottom: 12%;
+    left: 3%;
+    font-weight:100;
+}
+
+#left #left1 h2{
+    bottom: 5%;
+    left: 0%;
+    font-weight:100;
+
+}
+#left #left1 h3{
+    font-size: 20px;
+    color: rgba(245, 245, 245, 0.205);
+    font-weight: 100;
+   
+}
+
+#left #a h1{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+    top: 45px;
+    left: 70px;
+}
+#center #A1 h1{
+    position: absolute;
+    color: white;
+    bottom: 20px;
+    left: 29.45%;
+    font-size: 80px;
+    font-family: Hursheys;
+    font-weight: 100;
+}
+#center #b1 h1{
+    position: absolute;
+    color: white;
+    left: 30%;
+    top: 45px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+#center #b1 h2{
+    position: absolute;
+    color: white;
+    top: 45px;
+    font-size: 25px;
+    left: 73%;
+    font-family: sans-serif;
+}
+#circle:hover{
+    background-color: rgba(245, 245, 245, 0.205);
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+#divline:hover{
+    background-color: rgba(245, 245, 245, 0.205);
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+#text h2{
+position: absolute;
+    height: 50px;
+    width: 50px;
+    color: white;
+    font-size: 120px;
+    font-family: hursheys;
+    top: 38%;
+    left: 12.4%;
+    font-weight: 100;
+}
+#text h1:hover{
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke-width: 2px;
+    cursor: pointer;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+#text h2:hover{
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke-width: 2px;
+    cursor: pointer;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+#right #rbtm:hover{
+
+    -webkit-text-fill-color:white;
+    background-color: black;
+    cursor: pointer;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
